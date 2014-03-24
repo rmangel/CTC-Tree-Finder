@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.CTC.TreeFinder" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CTC TreeFinder</name>
+    <description>
+        An app for locating champion trees
+    </description>
+    <author email="randy.mangel@gmail.com" href="">
+        RANDY MANGEL
+    </author>
+    <feature name="Geolocation">
+    	<param name="android-package" value="org.apache.cordova.GeoBroker" />
+	</feature>
+    <content src="index.html" />
+    
+    <plugins>
+        <plugin name="SQLitePlugin" value="SQLitePlugin" />
+    </plugins>
+            
+    <access origin="*" />
+    <icon src="icon.png" width="128" height="128"/>
+</widget>
